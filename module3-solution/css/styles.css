@@ -1,0 +1,41 @@
+.navbar-default {
+    background-color: #999999;
+}
+
+.navbar-default .navbar-brand {
+    color: black;
+}
+
+a.navbar-brand:hover {
+    color: black;
+  }
+
+#chicken {
+    background-color: #999999;
+    margin: 30px 0px 15px 0px;
+}
+
+#content-title {
+    font-size: 1.4em;
+    font-weight: 700;
+}
+
+
+@media (min-width: 768px) {
+    #chicken {
+        padding: 5px 20px 10px 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    #bs-example-navbar-collapse-1 {
+      background-color: #F8F8F8;
+    }
+
+    #chicken {
+        margin-left: 10%;
+        margin-right: 10%;
+        padding: 5px 20px 10px 20px;
+    }
+}
+
