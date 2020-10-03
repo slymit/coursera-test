@@ -10,6 +10,10 @@ a.navbar-brand:hover {
     color: black;
   }
 
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
 #chicken {
     background-color: #999999;
     margin: 30px 0px 15px 0px;
